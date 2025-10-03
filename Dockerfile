@@ -13,7 +13,7 @@ COPY . .
 ########################
 
 # Copy file build từ stage builder
-COPY /app /usr/share/nginx/html
+COPY . /usr/share/nginx/html
 
 # Copy config nginx (tuỳ chọn)
 # Nếu không có thì Nginx sẽ dùng default
